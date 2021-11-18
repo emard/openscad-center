@@ -10,6 +10,6 @@ Let's save'em some typing.
     box(...)       -> cube(...            , center=true)
     rect(...)      -> square(...          , center=true)
     disc(...)      -> cylinder(...        , center=true)
-    extrude(...)   -> linear_extrude(.... , center=true)
+    extrude(...)   -> linear_extrude(...  , center=true)
     surf(...)      -> surface(...         , center=true)
     */
