@@ -1,4 +1,15 @@
 # OpenSCAD include center=true
 
-Helper include functions with default "center=true",
-it doesn't have to be repeately typed everywhere.
+Include functions with new default "center=true".
+It is more often used than factory default "center=false".
+Let's save some typing.
+
+    include <center.scad>
+
+    /*
+    box(...)       -> cube(...            , center=true)
+    rect(...)      -> square(...          , center=true)
+    disc(...)      -> cylinder(...        , center=true)
+    extrude(...)   -> linear_extrude(.... , center=true)
+    surf(...)      -> surface(...         , center=true)
+    */
